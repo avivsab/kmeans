@@ -1,0 +1,40 @@
+{
+  "name": "kmeans_pro",
+  "version": "1.0.0",
+  "description": "Application to managing DB for apples picking by drones",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avivsab/kmeans.git"
+  },
+  "keywords": [
+    "Harvest",
+    "Drones"
+  ],
+  "author": "Aviv Sebag",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avivsab/kmeans/issues"
+  },
+  "homepage": "https://github.com/avivsab/kmeans#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consolidate": "^0.15.1",
+    "csv": "^0.3.7",
+    "csv-array": "0.0.22",
+    "csv-parse": "^4.3.4",
+    "csv-parser": "^2.2.0",
+    "express": "^4.16.4",
+    "get": "^1.4.0",
+    "get-stream": "^5.0.0",
+    "mongoose": "^5.4.19",
+    "mustache": "^3.0.1",
+    "node-kmeans": "^1.1.8",
+    "sanitize-html": "^1.20.0",
+    "stream": "0.0.2",
+    "unescape": "^1.0.1"
+  }
+}
